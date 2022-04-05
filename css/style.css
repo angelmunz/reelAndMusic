@@ -1,3 +1,4 @@
+
 .titulo {
   font-size: 90px;
   text-align: center;
@@ -10,6 +11,11 @@
 ==================================== */
 * {
   box-sizing: border-box;
+  border-color: red;
+  border:1px;
+  /* border:solid; */
+ 
+
   
 }
 body {
@@ -18,7 +24,11 @@ body {
   margin: 0;
   min-height: 100vh;
 }
-
+.container{
+  background-color: rgba(82, 147, 190, 0);
+  width:80%;
+  max-width: 1920PX;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -102,6 +112,7 @@ td{
   .main-nav,
   .videos {
     display: flex;
+    justify-content: center;
   }
   .header,
   .videos{
@@ -158,6 +169,10 @@ img {
 .filmain{
   display: flex;
   flex-direction: column;
-  background-color: lightcoral;
+ /*background-color: lightcoral;*/
   width:100%;
+}
+.grid2{
+  display:flex;
+  flex-wrap: wrap;
 }
