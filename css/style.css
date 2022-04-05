@@ -103,21 +103,7 @@ td{
 }
 .youtube{
   margin-bottom: 8 0px;
-  position: relative;
-  overflow: hidden;
-  width: 60%;
-}
-.youtube::after{
-  display: block;
-  content: "";
-  padding-top: 56.25%;
-}
-.youtube iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  
 }
 
 /* ================================= 
