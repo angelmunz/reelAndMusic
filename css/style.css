@@ -46,7 +46,8 @@ h2,h3,a {
 }
 
 .main-nav {
-  margin-top: 5px;
+  margin-top: 2px;
+  background-color: #34495e8e;
 }
 .logo a,
 .main-nav a {
@@ -55,6 +56,7 @@ h2,h3,a {
   text-align: center;
   display: block;
   text-decoration: none;
+  
 }
 
 .main-nav a {
@@ -80,9 +82,7 @@ h2,h3,a {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-.about{
-  padding-top: 8vh;
-}
+
 
 p {
   margin: 0% 20% 0% 20%;
@@ -101,7 +101,9 @@ p {
 td{
   padding: 35px 35px 35px 35px;
 }
-
+.youtube{
+  margin-bottom: 8 0px;
+}
 
 /* ================================= 
   Media Queries
@@ -158,8 +160,16 @@ RRSS
   flex-direction: column;
 } 
 footer {
+  padding: 3% ;
   display:flex;
   justify-content: center;
+  background-color: #34495e8e;
+  color: white;
+  height: 100px;
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color:white
 }
 img {
   margin: 0px 8px 0px 8px;
