@@ -39,6 +39,7 @@ ul {
 h2,h3,a {
   color: #000000;
   text-decoration: none;
+  
 }
 .logo {
   margin: 0;
@@ -85,7 +86,7 @@ h2,h3,a {
 
 
 p {
-  margin: 0% 20% 0% 20%;
+  /* margin: 0% 20% 0% 20%; */
   text-align: justify;
 }
 
@@ -176,10 +177,10 @@ RRSS
 footer {
   padding: 3%;
     display: flex;
-  
     background-color: #34495e8e;
     color: white;
-    height: 47px;
+    
+    justify-content: center;
 }
 a:link, a:visited, a:active {
   text-decoration:none;
@@ -201,5 +202,5 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    padding-right: 6%;
+    /* padding-right: 6%; */
 }
