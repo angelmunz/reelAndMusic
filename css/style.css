@@ -179,7 +179,7 @@ footer {
     display: flex;
     background-color: #34495e8e;
     color: white;
-    
+    align-items: center;
     justify-content: center;
 }
 a:link, a:visited, a:active {
