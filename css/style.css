@@ -3,6 +3,8 @@ body {
   line-height: 1.6;
   margin: 0;
   min-height: 100vh;
+  height: 100vh;
+  margin-bottom: 50px;
 }
 .container{
   background-color: rgba(82, 147, 190, 0);
@@ -133,7 +135,7 @@ td{
 
 a:link, a:visited, a:active {
   text-decoration:none;
-  color:white
+  color:rgb(255, 255, 255)
 }
 
 
@@ -162,6 +164,7 @@ display: block;
 hr{
   display:none;
 }
+/*pantalla PC*/
 @media(max-width:1200px){
   .list li {
     width: 33.3%; /* nice 3 columns */
@@ -170,8 +173,18 @@ hr{
     margin: 0;
    /*  background-color: rgb(255, 238, 0); */
   }
+  .text {
+    background-color: rgb(38, 0, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: column;
+    margin-top: -25%;
+    margin-right: 40%;
 }
-
+}
+/*pantalla TABLET*/
 @media(max-width:1190px){
   .list li {
     width: 50%; /* nice 3 columns */
@@ -189,15 +202,19 @@ hr{
     justify-content: center;
     margin-bottom: 60px;
   }
-  
-
-  /* 
-  el div que contiene el video lleva esto
-  div 
-  display: flex;
-    justify-content: center;
- */
+  .text {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: column;
+    margin-top: -25%;
+    margin-right: 40%;
 }
+}
+
+/*pantalla movil*/
 @media (max-width:991px){
   
   .list li {
@@ -219,8 +236,48 @@ hr{
     flex-direction: column;
  
 }
+.text{
+  background-color: rgb(166, 255, 0);
+  display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-top: -25%;
+    margin-right: 0% !important;
+    
+}
 }
 
 /********************
 FOOTER
 *********************/
+.lockedfooter{
+  min-height: calc(100vh - [header-height]px - [footer-height]px) !important;
+ 
+}
+
+
+/********************
+  contacto
+*********************/
+.contact_data{
+  color:#000000;
+}
+.face{
+  width: 30%;
+  border-radius: 600px;
+  display: flex;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.text{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+   /*  align-content: flex-end; */
+    flex-direction: column;
+    margin-top: -25%;
+    margin-left: 35%;
+    
+}
